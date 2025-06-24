@@ -11,7 +11,7 @@ export default function Footer() {
           <div className="md:col-span-2">
             <h3 className="text-xl font-bold mb-4">Pro Craftworks</h3>
             <p className="text-gray-300 mb-4 max-w-md">
-              Transforming Atlanta's finest neighborhoods since 2005 with exceptional craftsmanship 
+              Transforming Atlanta&apos;s finest neighborhoods since 2005 with exceptional craftsmanship 
               and attention to detail. Interior renovations for residential, commercial, and custom projects.
             </p>
             <div className="space-y-2">

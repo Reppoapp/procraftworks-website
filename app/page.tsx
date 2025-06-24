@@ -227,7 +227,7 @@ export default function Home() {
             </div>
             <div>
               <div className="text-4xl font-bold text-gray-300 mb-2">2005</div>
-              <div className="text-gray-400">Since Founded</div>
+              <div className="text-gray-400">Founded</div>
             </div>
             <div>
               <div className="text-4xl font-bold text-gray-300 mb-2">100%</div>

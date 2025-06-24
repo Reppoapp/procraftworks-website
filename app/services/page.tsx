@@ -112,7 +112,7 @@ export default function Services() {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-4xl sm:text-5xl font-bold mb-6">
-              Our Construction <span className="text-red-600">Services</span>
+              Our Construction <span className="text-white">Services</span>
             </h1>
             <p className="text-xl text-gray-200">
               From residential homes to commercial buildings, we deliver exceptional construction services tailored to your needs.
@@ -130,12 +130,12 @@ export default function Services() {
                 <div className="flex items-start space-x-4">
                   <div className="text-4xl">{service.icon}</div>
                   <div className="flex-1">
-                    <h3 className="text-2xl font-bold text-gray-900 mb-4">{service.title}</h3>
+                    <h3 className="text-2xl font-bold text-black mb-4">{service.title}</h3>
                     <p className="text-gray-600 mb-6">{service.description}</p>
                     <ul className="space-y-2">
                       {service.features.map((feature, featureIndex) => (
                         <li key={featureIndex} className="flex items-center text-gray-700">
-                          <svg className="w-4 h-4 text-red-600 mr-3 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                          <svg className="w-4 h-4 text-black mr-3 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                             <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                           </svg>
                           {feature}
@@ -154,7 +154,7 @@ export default function Services() {
       <section className="py-16 bg-gray-50">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">Our Construction Process</h2>
+            <h2 className="text-3xl font-bold text-black mb-4">Our Construction Process</h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
               We follow a proven process to ensure your project is completed efficiently and exceeds expectations.
             </p>
@@ -163,10 +163,10 @@ export default function Services() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {processSteps.map((step, index) => (
               <div key={index} className="text-center">
-                <div className="w-16 h-16 bg-red-600 text-white rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">
+                <div className="w-16 h-16 bg-black text-white rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">
                   {step.step}
                 </div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-3">{step.title}</h3>
+                <h3 className="text-xl font-semibold text-black mb-3">{step.title}</h3>
                 <p className="text-gray-600">{step.description}</p>
               </div>
             ))}
@@ -179,49 +179,49 @@ export default function Services() {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-3xl font-bold text-gray-900 mb-6">Why Choose Our Services?</h2>
+              <h2 className="text-3xl font-bold text-black mb-6">Why Choose Our Services?</h2>
               <div className="space-y-4">
                 <div className="flex items-start space-x-4">
-                  <div className="flex-shrink-0 w-6 h-6 bg-red-600 rounded-full flex items-center justify-center mt-1">
+                  <div className="flex-shrink-0 w-6 h-6 bg-black rounded-full flex items-center justify-center mt-1">
                     <svg className="w-3 h-3 text-white" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
                   </div>
                   <div>
-                    <h3 className="text-lg font-semibold text-gray-900">Licensed & Insured Professionals</h3>
+                    <h3 className="text-lg font-semibold text-black">Licensed & Insured Professionals</h3>
                     <p className="text-gray-600">All our contractors are fully licensed, bonded, and insured for your protection.</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-4">
-                  <div className="flex-shrink-0 w-6 h-6 bg-red-600 rounded-full flex items-center justify-center mt-1">
+                  <div className="flex-shrink-0 w-6 h-6 bg-black rounded-full flex items-center justify-center mt-1">
                     <svg className="w-3 h-3 text-white" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
                   </div>
                   <div>
-                    <h3 className="text-lg font-semibold text-gray-900">Quality Materials & Craftsmanship</h3>
+                    <h3 className="text-lg font-semibold text-black">Quality Materials & Craftsmanship</h3>
                     <p className="text-gray-600">We use only premium materials and employ skilled craftsmen for lasting results.</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-4">
-                  <div className="flex-shrink-0 w-6 h-6 bg-red-600 rounded-full flex items-center justify-center mt-1">
+                  <div className="flex-shrink-0 w-6 h-6 bg-black rounded-full flex items-center justify-center mt-1">
                     <svg className="w-3 h-3 text-white" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
                   </div>
                   <div>
-                    <h3 className="text-lg font-semibold text-gray-900">Transparent Pricing</h3>
+                    <h3 className="text-lg font-semibold text-black">Transparent Pricing</h3>
                     <p className="text-gray-600">No hidden costs or surprise fees. We provide detailed estimates upfront.</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-4">
-                  <div className="flex-shrink-0 w-6 h-6 bg-red-600 rounded-full flex items-center justify-center mt-1">
+                  <div className="flex-shrink-0 w-6 h-6 bg-black rounded-full flex items-center justify-center mt-1">
                     <svg className="w-3 h-3 text-white" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
                   </div>
                   <div>
-                    <h3 className="text-lg font-semibold text-gray-900">Warranty Protection</h3>
+                    <h3 className="text-lg font-semibold text-black">Warranty Protection</h3>
                     <p className="text-gray-600">Comprehensive warranties on all our work for your peace of mind.</p>
                   </div>
                 </div>
@@ -235,7 +235,7 @@ export default function Services() {
               </p>
               <Link
                 href="/contact"
-                className="bg-red-600 hover:bg-red-700 text-white px-8 py-3 rounded-lg font-semibold uppercase tracking-wide transition-colors duration-200 inline-block"
+                className="btn-primary"
               >
                 Get Free Quote
               </Link>

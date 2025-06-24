@@ -1,3 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  }
+  
+  body {
+    @apply bg-white text-gray-900 antialiased;
+  }
+}
+
+@layer components {
+  .container {
+    @apply max-w-7xl;
+  }
+
+  /* Professional button styles */
+  .btn-primary {
+    @apply bg-black hover:bg-gray-800 text-white px-8 py-3 rounded-lg font-medium uppercase tracking-wide transition-all duration-200 shadow-lg hover:shadow-xl;
+  }
+  
+  .btn-secondary {
+    @apply border-2 border-black text-black hover:bg-black hover:text-white px-8 py-3 rounded-lg font-medium uppercase tracking-wide transition-all duration-200;
+  }
+  
+  .btn-outline {
+    @apply border-2 border-gray-300 text-gray-700 hover:border-black hover:text-black px-8 py-3 rounded-lg font-medium transition-all duration-200;
+  }
+  
+  /* Card styles */
+  .card {
+    @apply bg-white rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-200 border border-gray-100;
+  }
+  
+  .card-dark {
+    @apply bg-gray-900 text-white rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-200;
+  }
+  
+  /* Section backgrounds */
+  .section-light {
+    @apply bg-white;
+  }
+  
+  .section-gray {
+    @apply bg-gray-50;
+  }
+  
+  .section-dark {
+    @apply bg-gray-900 text-white;
+  }
+  
+  /* Text styles */
+  .text-accent {
+    @apply text-gray-600;
+  }
+  
+  .text-muted {
+    @apply text-gray-500;
+  }
+  
+  /* Professional gradients */
+  .gradient-dark {
+    background: linear-gradient(135deg, #000000 0%, #1f2937 100%);
+  }
+  
+  .gradient-light {
+    background: linear-gradient(135deg, #f9fafb 0%, #ffffff 100%);
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
 @import "tailwindcss";
 
 :root {
